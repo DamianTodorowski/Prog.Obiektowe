@@ -29,9 +29,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double l1,l2;
-        System.out.println("Podaj 1 wymiar kwadratu:");
+        System.out.println("Podaj 1 wymiar prostokata:");
         l1 = scanner.nextDouble();
-        System.out.println("podaj 2 wymiar kwadratu:");
+        System.out.println("podaj 2 wymiar prostokata:");
         l2 = scanner.nextDouble();
 
 
