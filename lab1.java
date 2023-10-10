@@ -42,7 +42,7 @@ public class Main {
 }
 
 //^^^^^^^^^^^^^^^^^^^
-//Stwórz program do obliczenia pola kwadratu. Dane pobierz od użytkownika, wynik wyświetl na standardowym wyjściu.
+//Stwórz program do obliczenia pola prostokąta. Dane pobierz od użytkownika, wynik wyświetl na standardowym wyjściu.
 
 
 import java.util.Scanner;
