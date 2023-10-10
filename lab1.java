@@ -199,3 +199,63 @@ public class Main {
 
 //^^^^^^^^^^^^^^^^^^
 //Napisz program, który wykorzystując pętlę for wyświetli liczby od 1 do 100
+
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a, pom, wynik;
+        wynik=0;
+        pom=0;
+        System.out.println("Podaj liczbę: ");
+        a = scanner.nextInt();
+
+        while(a>0){
+            pom=a%10;
+            wynik+=pom;
+            a=a/10;
+            if(a>0){
+                wynik = wynik * 10;
+
+            }
+        }
+        System.out.println(wynik);
+    }
+
+}
+
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Stwórz program który przyjmie od użytkownika liczbę całkowitą i zwróci tę liczbę w odwrotnej kolejności 
+//np. dla 12345 ma zwrócić 54321. Możesz ograniczyć program tylko do liczb dodatnich.
+
+
+
+
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String slowo1, slowo2;
+        System.out.println("podaj 1 slowo: ");
+        slowo1=scanner.next();
+        System.out.println("podaj 2 slowo: ");
+        slowo2=scanner.next();
+        System.out.println(slowo1);
+        System.out.println(slowo2);
+    }
+
+}
+//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+//Napisz program, który wczytuje ze standardowego wejścia dwa łańcuchy znaków, a następnie wypisuje je w kolejnych wierszach na standardowym wyjściu.
